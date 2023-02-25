@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none !important;
+  }
+  
+  body {
+    background: #e5e5e5;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  
+  .section-items-head {
+    margin-top: 32px;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+  }
+  
+  .section-items-text {
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+    margin-bottom: 57px;
+  }
+  
+  .btn-all-product {
+    margin: 48px auto 95px;
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
+    padding: 14px 38px;
+    border: 1px solid #ff6a6a;
+  }
+  
+  .head-card-items {
+    margin-top: 96px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+  }
+  
+  .content-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+  
+  .item {
+    max-width: 360px;
+  }
+  
+  .img-item-div {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .img-item {
+    width: 100%;
+    display: block;
+  }
+  
+  .btn-add-to-cart {
+    display: block;
+    margin: 188px auto;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    height: 43px;
+    width: 138px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  
+  .cart-btn {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  
+  .btn-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(58, 56, 56, 0.86);
+    display: none;
+  }
+  
+  .img-item-div:hover .btn-div {
+    display: block;
+  }
+  
+  .cont-item-div {
+    padding: 25px 30px 20px 16px;
+    background: #f8f8f8;
+  }
+  
+  .head-item {
+    margin-bottom: 16px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .descr-item {
+    margin-bottom: 16px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+  }
+  
+  .price-item {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+  }
+  
+  .promotions {
+    background: #222224;
+    height: 25px;
+  }
+  
+  .card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1140px;
+    margin: 32px auto;
+    align-items: center
+  }
+  
+  .product {
+    margin-bottom: 20px;
+    display: flex;
+    width: 650px;
+    height: 300px;
+    border: 1px solid #000;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo {
+    max-width: 300px;
+    height: 100%;
+  }
+  
+  .img-card-items {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .head-items {
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .description {
+    width: 390px;
+    margin-left: 31px;
+    margin-top: 22px;
+    align-content: space-between
+  }
+  
+  .hdr {
+    text-align: left;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-bottom: 42px;
+    max-width: 262px;
+  }
+  
+  .price-value {
+    color: #EF5B70
+  }
+  
+  .content {
+    flex-direction: column;
+  }
+  
+  .price,
+  .color,
+  .size,
+  .quantity {
+    text-align: left;
+    margin: 3px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+  }
+  
+  .btn-closer-card {
+    margin-right: 16px;
+    padding: 5px 10px;
+    font-size: 32px;
+  }
+  
+  .quantity-value {
+    margin-left: 36px;
+    border: 1px solid #ccc;
+    padding: 3px 15px;
+  }
